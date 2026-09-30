@@ -1,8 +1,21 @@
 [package]
-name = "morphic_sieve_core"
-version = "0.1.0"
+name = "morphic-sieve-os"
+version = "1.0.0"
 edition = "2021"
 authors = ["Morphsec88"]
-description = "Conceptual core for Morphic Sieve OS - Field Resonance Architecture"
+description = "Reference substrate core for the Tokenized Field-Resonance Architecture."
+license = "MIT"
+readme = "README.md"
+keywords = ["operating-system", "morphic-sieve", "field-resonance", "zero-copy", "high-throughput"]
+categories = ["asynchronous", "network-programming", "os-development"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
 
 [dependencies]
+# This architecture achieves hardware-level performance using only the Rust standard library.
+# Zero external external runtime dependencies required to maintain absolute memory safety.
