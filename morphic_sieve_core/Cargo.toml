@@ -1,0 +1,8 @@
+[package]
+name = "morphic_sieve_core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Morphsec88"]
+description = "Conceptual core for Morphic Sieve OS - Field Resonance Architecture"
+
+[dependencies]
