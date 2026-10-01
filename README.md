@@ -37,7 +37,28 @@ By splitting composite incoming data streams into standalone tokens at the hardw
 
 ### Layer 2: The Known Resonance Field
 * **Atomic Amplitude Ingress:** When identical token patterns are discovered across millions of incoming requests, the system does not construct memory-heavy queues. Instead, it increments a hardware-level atomic register representing the chamber's aggregate energy amplitude.
-* **Automatic Convergence:** Response entities exist as pre-indexed structures mirroring the token topology. When a response matrix updates, the field undergoes an interference collapse. The return wave automatically precipitates the data across all matching waiting network handles in a single cycle.
+* **Automatic Convergence:**
+  
+*### Coordination Matrix (Semantic Convergence Layer)
+
+The Resonance Field operates on a multi-dimensional coordination matrix that represents
+the combined semantic structure of incoming token sets.
+
+Each token projected from Layer 1 contributes a deterministic vector component to the
+matrix. When all components of a token set form a valid and previously registered
+semantic pattern, the matrix reaches a stable convergence state.
+
+A stable convergence state directly maps to a single response vector. No branching or
+multi-path evaluation occurs: the response is selected solely based on the combined
+token pattern. This guarantees deterministic, constant-time O(1) response emission for
+all known token configurations.
+
+If the token pattern does not correspond to any registered matrix configuration, the
+system does not converge. The request is routed to Layer 3 (Fallback Trunk), where
+traditional sequential interpretation resolves the query and optionally registers a new
+pattern for future convergence.
+
+* Response entities exist as pre-indexed structures mirroring the token topology. When a response matrix updates, the field undergoes an interference collapse. The return wave automatically precipitates the data across all matching waiting network handles in a single cycle.
 
 ### Layer 3: The Fallback Trunk (The "Foglalkozós" Fakk)
 * **Generative Query Containment:** When an incoming signal represents a token combination that has no pre-existing structural matrix within the Layer 2 resonance grid, it drops into the Fallback Trunk.
